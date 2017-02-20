@@ -10,7 +10,7 @@ The computationally-intensive part of this process is the training, which can ta
 
 3. To use a supercomputer, you need to know a little bit about Linux. But don't be scared! We'll run through this in the training, but you only need to know the basics to be productive. Let's start by typing the `ls` command and hitting Enter. That will tell us what's stored in our current directory (when you first login, this will be your home directory where you can store your files).
 
-4. We're all working on a shared project I've created just for ResBaz. You can use this space to share files with your colleagues while you're working on them with Spartan. Type `cd /data/projects/punim0180`, which is the project I've created. If you get a permission denied error, you're not yet a member of that project; let me know and I'll add you!
+4. We're all working on a shared project I've created just for ResBaz. You can use this space to share files with your colleagues while you're working on them with Spartan. Type `cd /data/projects/punim0180`, which **c**hanges **d**irectory into the project I've created. If you get a permission denied error, you're not yet a member of that project; let me know and I'll add you!
 
 5. Go into the Shakespeare subfolder with `cd Shakespeare`. In here is the Python program we want to run, and a job script that tells the supercomputer how to run it. If you type `less Shakespeare.slurm` you can view the contents of the job script.
 
