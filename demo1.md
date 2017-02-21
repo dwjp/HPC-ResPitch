@@ -4,7 +4,7 @@ Today we're going to generate Shakespearean prose using a supercomputer, and a d
 
 The computationally-intensive part of this process is the training, which can take days to months, often using special high-end graphics cards. It's a great use for a supercomputer! I've done that part for you, so you can just see what the model has learnt with some sample output (this only takes a couple seconds to run).
 
-1. First off, someone from your group will need an account on Spartan, our local supercomputer at The University of Melbourne. If you don't have one, let me know and I can invite you along to the demo project I've created for ResBaz. Follow the email instructions to setup a username and password.
+1. First off, you'll need an account on Spartan. We've created some temporary ones to use during ResBaz, but anyone at The University of Melbourne can request access at https://dashboard.hpc.unimelb.edu.au/karaage/
 
 2. Once your account has been created, you need to login via SSH. This gives you access to a command line prompt on Spartan which you can use to issue commands. The address you'll need is spartan.hpc.unimelb.edu.au, and the username/password you set in step 1. There are many different SSH clients available. If you're using Linux or OS X, it's already built in, just open a terminal window and type `ssh spartan.hpc.unimelb.edu.au`. If you're using Windows, you'll have to install a client. If you're using Chrome, you can try this [addon](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo). Another common option is [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Take care with your password; if you enter the wrong password too many times, you'll be locked out for a while!
 
